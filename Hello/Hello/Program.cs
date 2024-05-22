@@ -56,14 +56,77 @@ namespace Hello
             //char to int to long to float to double
             //2.Explicit
 
+            //type vName = value;
 
             //int a = (int)3.4;
-            int x = 3;
-            double y = x;
-            int z = 'y';
-            Console.WriteLine(x);
-            Console.WriteLine(y);
-            Console.WriteLine(z);
+            //int x = 3;
+            //double y = x;
+            //int z = 'y';
+            //float f = Convert.ToInt32(3.45);
+            //string sx = "random string";
+
+            //Console.WriteLine(f);
+            //Console.WriteLine(x);
+            //Console.WriteLine(y);
+            //Console.WriteLine(z);
+            //Console.WriteLine("Enter your name : ");
+            //string name = Console.ReadLine();
+            //Console.WriteLine("Hello "+name);
+
+            //Opertors in C#
+            /*
+             1. Arithmetic operators;
+             2. Assignment Operators;
+             3. Comparison Operators;
+
+             */
+            //int a = 1, b = 2;
+            //Console.WriteLine("the value of a + b is : " + (a + b));
+
+            //Logical Operator
+
+            //Console.WriteLine(true && false);
+            //Console.WriteLine(true && true);
+            //Console.WriteLine(true || false);
+            //Console.WriteLine(true || false);
+
+            //Console.WriteLine(!false);
+            //Console.WriteLine(!true);
+
+            //Comparison Operator;
+
+            //Console.WriteLine(34 > 4);
+            //Console.WriteLine(34 > 5566);
+            //Console.WriteLine(34 < 41);
+
+            //int a =  Math.Min(34, 345);
+            //Console.WriteLine(a);
+
+
+            //string hello = "hello world, fuck you";
+            //string b = "heke";
+            //Console.WriteLine(hello.Length);
+            //Console.WriteLine(hello.ToLower());
+            //Console.WriteLine(hello.ToUpper());
+            //Console.WriteLine(hello + "teb");
+            //Console.WriteLine(string.Concat(hello, b));
+
+            //string name  = Console.ReadLine();
+            //string candies = Console.ReadLine();
+
+            ////*** String interpolation
+            //Console.WriteLine($"your name is {name}. you have {candies}");
+
+            //string hello = "hello world, fuck you";
+            //Console.WriteLine(hello[3]);
+
+            Player rakin = new Player();
+            Console.WriteLine(rakin.getHealth());
+            
+            rakin.setHealth(60);
+            Console.WriteLine(rakin.getHealth());
+
+
             Console.ReadLine();
         }
     }
