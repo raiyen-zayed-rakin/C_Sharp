@@ -50,13 +50,77 @@ namespace FreeCodeCamp
             //Console.WriteLine(money.ToString());
 
 
-            Console.Write("Enter a number : ");
-            string numInput = Console.ReadLine();
-            int num = Convert.ToInt32(numInput);
+            //TRYPARSE
+            //bool success = true;
 
-            Console.WriteLine(num);
-            //here
-            int.TryParse(numInput, out num);
+            //while (success)
+            //{
+
+            //    Console.Write("Enter a number : ");
+            //    string numInput = Console.ReadLine();
+
+            //    if (int.TryParse(numInput, out int num))
+            //    {
+            //        success = false;
+            //        Console.WriteLine(num);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Failed");
+            //    }
+
+            //}
+
+            ////TIMES TABLE
+            //Console.Write("Enter a number for table : ");
+            ////int num = Convert.ToInt32(Console.ReadLine());
+            //string numInput = Console.ReadLine();
+            //int num = Convert.ToInt32(numInput);
+
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine(string.Format("{0} x {1} = {2}",i, num, i * num));
+            //}
+
+
+            //FIZZ BUZZ GAME
+
+            //Console.Write("Enter Number : ");
+            //int num = Convert.ToInt32(Console.ReadLine());
+
+            //for (int i = 1; i <= num; i++)
+            //{
+            //    if(i%3 == 0 && i%5 == 0)
+            //    {
+            //        Console.WriteLine("FizzBuzz");
+            //    }
+            //    else if (i%3 == 0)
+            //    {
+            //        Console.WriteLine("Fizz");
+            //    }
+            //    else if (i%5 == 0)
+            //    {
+            //        Console.WriteLine("Buzz");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            string name = "Rakin";
+            string nickName = "TomarPapa";
+            ////String interpolation
+            //Console.WriteLine($"Your name is {name} and nick name is {nickName}");
+
+            //string concatanation;
+            string test = string.Concat("Your name is ", name, " and your age is ", nickName);
+            Console.WriteLine(test);
+
+            string[] names = new string[] {"aba", "test", "test1"};
+
+            Console.WriteLine(string.Concat(names));
+
 
             Console.ReadLine();
         }
