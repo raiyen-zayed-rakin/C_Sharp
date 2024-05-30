@@ -108,20 +108,78 @@ namespace FreeCodeCamp
             //    }
             //}
 
-            string name = "Rakin";
-            string nickName = "TomarPapa";
-            ////String interpolation
-            //Console.WriteLine($"Your name is {name} and nick name is {nickName}");
+            //string name = "Rakin";
+            //string nickName = "TomarPapa";
+            //////String interpolation
+            ////Console.WriteLine($"Your name is {name} and nick name is {nickName}");
 
-            //string concatanation;
-            string test = string.Concat("Your name is ", name, " and your age is ", nickName);
-            Console.WriteLine(test);
+            ////string concatanation;
+            //string test = string.Concat("Your name is ", name, " and your age is ", nickName);
+            //Console.WriteLine(test);
 
-            string[] names = new string[] {"aba", "test", "test1"};
+            //string[] names = new string[] {"aba", "test", "test1"};
 
-            Console.WriteLine(string.Concat(names));
+            //Console.WriteLine(string.Concat(names));
+
+            //string message = "C# is aright";
+
+            //Console.WriteLine(message[0]);
+            //Console.WriteLine(message.Substring(0,1));
+
+            //Console.Write("Enter a text : ");
+            //string message = Console.ReadLine();
+
+            //for (int i = 0; i < message.Length; i++)
+            //{
+            //    Console.Write(message[i]);
+            //}
+
+            //for (int i = message.Length-1; i >= 0 ; i--)
+            //{
+            //    Console.Write(message[i]);
+            //}
 
 
+            //if (name != "") {
+            //    Console.WriteLine("0");
+            //}
+            //if (!name.Equals(""))
+            //{
+            //    Console.WriteLine("1");
+            //}
+            //if (!string.IsNullOrEmpty(name))
+            //{
+            //    Console.WriteLine("3");
+            //}
+
+            //Console.Write("Enter your password : ");
+            //string p1 = Console.ReadLine();
+            //Console.Write("Enter your password again : ");
+            //string p2 = Console.ReadLine();
+
+            //if (!p1.Equals(string.Empty))
+            //{
+            //    if (p2.Equals(string.Empty))
+            //    {
+            //        if (p1 == p2)
+            //        {
+            //            Console.WriteLine("Matched");
+            //        }
+            //        else if (p1 != p2)
+            //        {
+            //            Console.WriteLine("Not Matched");
+            //        }
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Please enter the confirmation password.");
+            //    }
+
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Please enter the password.");
+            //}
             Console.ReadLine();
         }
     }
